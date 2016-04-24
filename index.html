@@ -1,1 +1,362 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shunichi Hasegawa Portofolio">
+    <meta name="author" content="Shunichi Hasegawa">
+    <title>www.s1hsgw.github.io</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="menuButton">
+        <div>
+            <img src="img/menu-button.svg" alt="menu button">
+        </div>
+    </a>
+    <nav id="sidebar-wrapper">
+        <div class="inner">
+            <ul class="sidebar-nav">
+                <li class="item">
+                    <img src="img/contact-logo.png" alt="brand logo" class="brand">
+                </li>
+                <li class="item">
+                    <a href="#top">Top</a>
+                </li>
+                <li class="item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a href="#works">Works</a>
+                </li>
+                <li class="item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <a id="menu-close" href="#" class="closeButton">
+            <div>
+                <img src="img/close-button.svg" alt="close button">
+            </div>
+        </a>
+    </nav>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div id="particles-js"></div>
+        <h1 id="homeLogo">
+                <span class="hidden-text2">SHUNICHI HASEGAWA</span>
+                <div id="logo-wrapper"></div>
+        </h1>
+    </header>
+    <!-- About -->
+    <section id="about" class="about clearfix">
+        <h2><span class="hidden-text">ABOUT ME</span></h2>
+        <div class="container">
+            <div class="row about-content">
+                <div class="col-md-6 col-lg-5">
+                    <img src="img/about-profile_large.png" class="img-responsive imgChange" alt="profile image">
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <div class="about-desc">
+                        <h3 class="about-desc-lead">DESIGN x ENGINEERING x BUSINESS</h3>
+                        <h4 class="about-desc-heading">経歴</h4>
+                        <p>1993年生まれ。アメリカのペンシルベニア州で少年時代を過ごす。 現在は信州大学大学院理工学研究科に在学しインタラクションデザインをテーマに研究を行っている。学外では、UI設計・デザインに特化した株式会社グッドパッチや、モノづくりにデザイン思考を取り入れている株式会社ヤフーでのインターンシップを経験し現在に至る。
+                        </p>
+                        <h4 class="about-desc-heading">受賞歴</h4>
+                        <p>
+                            株式会社グッドパッチ サマーインターンシップ最優秀賞</br>
+                            信州未来アプリコンテストゼロ ソフトバンク審査員特別賞
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Works -->
+    <section id="works" class="works">
+        <h2><span class="hidden-text">WORKS</span></h2>
+        <div class="container works-content">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="works-item">
+                                <a href="#" data-target="#worksModal1" data-toggle="modal">
+                                    <img class="img-works img-responsive" src="img/onTrend-thumb.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="works-item">
+                                <a href="#" data-target="#worksModal2" data-toggle="modal">
+                                    <img class="img-works img-responsive" src="img/TimeEyeHole-thumb.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="works-item">
+                                <a href="#" data-target="#worksModal3" data-toggle="modal">
+                                    <img class="img-works img-responsive" src="img/wdc2016-thumb.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="works-item">
+                                <a href="#" data-target="#worksModal4" data-toggle="modal">
+                                    <img class="img-works img-responsive" src="img/s1hsgw-thumb.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Callout -->
+    <aside class="callout flex-vertical-center">
+        <div class="callout-content">
+            <h1>
+                You can't connect the dots looking forward;<br/>
+                you can only connect them looking backwards.<br/>
+                So you have to trust that the dots will somehow connect in your future.
+            </h1>
+        </div>
+    </aside>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <img class="contact-logo img-responsive" src="img/contact-logo.png">
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/shunichi.hasegawa.50"><i class="fa fa-facebook fa-fw fa-4x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/s1hsgw"><i class="fa fa-twitter fa-fw fa-4x"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:shsgwixdjs@gmail.com"><i class="fa fa-envelope-o fa-fw fa-4x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="flex-vertical-center">
+        <p>Copyright &copy; SHUNICHI HASEGAWA, ALL RIGHTS RESERVED.</p>
+    </footer>
+    <!-- Works Modal -->
+    <div class="works-modal modal fade" id="worksModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h1 class="modal-heading">onTrend</h1>
+                            <h2 class="modal-subheading">Circle of Fashionable Friends</h2>
+                            <div class="slider">
+                                <div>
+                                    <img src="img/onTrend-top.png" alt="onTrend">
+                                </div>
+                                <div>
+                                    <img src="img/onTrend-2.png" alt="onTrend">
+                                </div>
+                                <div>
+                                    <img src="img/onTrend-3.png" alt="onTrend">
+                                </div>
+                            </div>
+                            <strong><h3 class="modal-lead">オシャレは”ひとり”ではなく”みんな”で。<br/>
+                                       onTrendで笑顔はじける女の子を増やしたい。
+                                    </h2>
+                            </strong>
+                            <p class="text-justify">この作品は、2015年の夏に参加した株式会社グッドパッチのサマーインターンシップにて講談社様からお題をいただき、実際のクライアントワークに近い形で制作したコンテスト型ファッションアプリです。ディレクター1人とデザイナー2人から構成された３人のチームでサービス企画から実際のプロトタイプ作成までを２週間かけて行いました。インターン中はユーザ視点とビジネス視点を両立しながらデザインすることの難しさを実感し、行き詰まることも多々ありました。しかしそれでも諦めずチームで試行錯誤を続けた結果、イマドキのオシャレを”ひとり”ではなく”みんな”とアプリでも雑誌でも楽しめるというコンセプトに辿り着き、最終発表では最優秀賞を頂くことができました。</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>閉じる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="works-modal modal fade" id="worksModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h1 class="modal-heading">Time-EyeHole</h1>
+                            <h2 class="modal-subheading">Explatory Visual Support Interface</h2>
+                            <img class="img-responsive img-centered" src="img/TimeEyeHole-top.png" alt="TimeEyeHole">
+                            <strong><h3 class="modal-lead">過去が見えるユーザインタフェース<br/>
+                                       Time EyeHoleで未来をつくる。
+                                    </h2>
+                            </strong>
+                            <p class="text-justify">Time Eye Holeは私が大学4年生の頃から取り組んでいる研究です。具体的には、人間が防犯カメラ画像や農園の定点観測画像の観察を行うような文脈において、画像中の重要な変化の探索支援を目的とした新しい画像比較ユーザインタフェースの開発を行っています。このWebアプリケーションの最大の特徴は「部分的に過去が見えるUI」です．従来の画像比較手法は複数の画像を横に並べて見比べる方法が主流でしたが、提案手法ではユーザが１つの画像の中であたかもその一部分のみを過去に戻している感覚で比較を行うことができるようなインタフェースをデザインしました。これにより、ユーザが画像比較する際の視線移動の範囲と回数が小さくなるため、ユーザの負担を減らせるとともにより正確な変化の把握に貢献できる可能性があります。</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>閉じる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="works-modal modal fade" id="worksModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h1 class="modal-heading">WDC LANDING PAGE</h1>
+                            <h2 class="modal-subheading">MEMBERS WANTED 2016</h2>
+                            <img class="img-responsive img-centered" src="img/wdc2016-top.png" alt="WDC 2016">
+                            <strong><h3 class="modal-lead">過去が見えるユーザインタフェース<br/>
+                                       Time EyeHoleで未来をつくる。
+                                    </h2>
+                            </strong>
+                            <p class="text-justify">Time Eye Holeは私が大学4年生の頃から取り組んでいる研究です。具体的には、人間が防犯カメラ画像や農園の定点観測画像の観察を行うような文脈において、画像中の重要な変化の探索支援を目的とした新しい画像比較ユーザインタフェースの開発を行っています。このWebアプリケーションの最大の特徴は「部分的に過去が見えるUI」です．従来の画像比較手法は複数の画像を横に並べて見比べる方法が主流でしたが、提案手法ではユーザが１つの画像の中であたかもその一部分のみを過去に戻している感覚で比較を行うことができるようなインタフェースをデザインしました。これにより、ユーザが画像比較する際の視線移動の範囲と回数が小さくなるため、ユーザの負担を減らせるとともにより正確な変化の把握に貢献できる可能性があります。</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>閉じる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="works-modal modal fade" id="worksModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h1 class="modal-heading">SHUNICHI HASEGAWA</h1>
+                            <h2 class="modal-subheading">MY PORTFOLIO SITE</h2>
+                            <img class="img-responsive img-centered" src="img/s1hsgw-top.png" alt="s1hsgw">
+                            <strong><h3 class="modal-lead">過去が見えるユーザインタフェース<br/>
+                                       Time EyeHoleで未来をつくる。
+                                    </h2>
+                            </strong>
+                            <p class="text-justify">Time Eye Holeは私が大学4年生の頃から取り組んでいる研究です。具体的には、人間が防犯カメラ画像や農園の定点観測画像の観察を行うような文脈において、画像中の重要な変化の探索支援を目的とした新しい画像比較ユーザインタフェースの開発を行っています。このWebアプリケーションの最大の特徴は「部分的に過去が見えるUI」です．従来の画像比較手法は複数の画像を横に並べて見比べる方法が主流でしたが、提案手法ではユーザが１つの画像の中であたかもその一部分のみを過去に戻している感覚で比較を行うことができるようなインタフェースをデザインしました。これにより、ユーザが画像比較する際の視線移動の範囲と回数が小さくなるため、ユーザの負担を減らせるとともにより正確な変化の把握に貢献できる可能性があります。</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>閉じる</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        autoplay: true,
+        fade: true
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+    <script src="js/vivus.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+    });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
