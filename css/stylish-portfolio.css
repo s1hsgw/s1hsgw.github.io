@@ -89,6 +89,10 @@ body {
     border-color: #008DD0;
 }
 
+.btn-primary > i {
+    margin-right: 6px;
+}
+
 
 /* Custom Horizontal Rule */
 
@@ -449,12 +453,13 @@ hr.small {
     margin: 0 0 15px 0;
     font-size: 3rem;
     font-family: 'Oswald';
+    line-height: 1.2;
 }
 
 .modal-subheading {
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    margin: 0 0 50px 0;
+    margin: 0 0 40px 0;
     font-size: 2rem;
     font-family: 'Oswald';
     line-height: 1.3;
